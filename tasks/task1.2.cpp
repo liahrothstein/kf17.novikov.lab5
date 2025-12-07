@@ -1,7 +1,9 @@
 #include <iostream>
 
 int main() {
+    long t = time(NULL);
     int numbers = 50;
+    srand(t);
 
     float r;
     float mas[numbers + 1];
